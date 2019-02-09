@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".daftar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Diri"
+                android:textSize="36sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:hint="Nama Anda" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/namaLihat"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Usia" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/usiaLihat"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Alamat" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/alamatLihat"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="E-mail" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/emailLihat"/>
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
